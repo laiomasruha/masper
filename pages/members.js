@@ -4,7 +4,7 @@ import { useFetch } from '../util/useFetch';
 import MemberCard from '../components/MermberCard';
 
 export default function Members() {
-  const { data } = useFetch("http://localhost:3000/api/users");
+  const { data } = useFetch(`${ROOT_PATH}/api/users`);
 
   if(!data){
     return <div></div>
