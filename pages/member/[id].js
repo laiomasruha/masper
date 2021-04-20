@@ -7,7 +7,7 @@ import Info from '../../components/Info';
 export default function Member() {
   const router = useRouter();
 
-  const { data } = useFetch(`http://localhost:3000/api/user/${router.query.id}`);
+  const { data } = useFetch(`user/${router.query.id}`);
 
   if (!data) {
     return <div></div>

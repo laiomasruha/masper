@@ -4,7 +4,7 @@ import { useFetch } from '../util/useFetch';
 import MemberCard from '../components/MermberCard';
 
 export default function Members() {
-  const { data } = useFetch("https://www.masper.com.br/api/users");
+  const { data } = useFetch(`users`);
 
   if(!data){
     return <div></div>
