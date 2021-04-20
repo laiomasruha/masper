@@ -1,15 +1,25 @@
 {
-  "name": "masruha",
+  "name": "with-mongodb",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "mongodb": "^3.5.9",
+    "next": "latest",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.5.5"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
   }
 }
