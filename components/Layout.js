@@ -21,7 +21,11 @@ export default function Layout({ children }) {
 
             <Navbar />
 
-            {children}
+            <div className="m-10 bg-red-50 rounded-lg">
+                {children}
+
+            </div>
+
 
             {/* <Footer /> */}
         </div>

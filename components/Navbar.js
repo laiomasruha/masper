@@ -6,12 +6,12 @@ export default function Navbar() {
     return (
         <nav className="py-4 px-8 bg-gray-800 text-white flex justify-between shadow">
             <div className="flex items-center">
-                {/* <Image
-                    src="/../public/masper-logo-noback.png"
+                <Image
+                    src="/masper-logo-noback.png"
                     alt="Picture of the author"
                     width={50}
                     height={50}
-                /> */}
+                />
                 <div className="text-2xl ml-3 font-medium"><Link href="/">MASPER</Link></div>
             </div>
             <div className="flex items-center">

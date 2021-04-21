@@ -15,7 +15,7 @@ export default function Member() {
 
   return (
     <div>
-      <header className="bg-white shadow">
+      <header className="bg-gray-300 rounded-t-lg">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex items-center">
           <Avatar size="60" src={data.image} />
           <div className="ml-5">
@@ -32,7 +32,7 @@ export default function Member() {
       </header>
 
       <main>
-        <div className="container max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 flex">
+        <div className="container max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 flex bg-gray-50">
           <Info user={data} />
         </div>
       </main>
