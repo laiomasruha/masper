@@ -1,11 +1,8 @@
 import useSWR from 'swr';
 
-const { NEXT_PUBLIC_VERCEL_URL } = process.env;
-
-export function useFetch(url) {
-    const APIUrl = `${NEXT_PUBLIC_VERCEL_URL}/api/${url}`;
-    
-    const { data, error } = useSWR(APIUrl, async APIUrl => {
+export function useFetch(url) {    
+    const { data, error } = useSWR(url, async url => {
+        const APIUrl = `${process.env.NEXT_PUBLIC_API_PATH}/api/${url}`;
         const response = await fetch(APIUrl);
         const data = await response.json();
 
