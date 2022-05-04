@@ -1,12 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "with-mongodb",
   "version": "0.1.0",
+=======
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+>>>>>>> 01971b36bd4f80ca4e2eed1208d9133fbb54c901
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@heroicons/react": "^1.0.1",
     "@tailwindcss/forms": "^0.3.2",
     "mongodb": "^3.5.9",
@@ -21,5 +28,21 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1"
+=======
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^4.1.17",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.8",
+    "typescript": "^4.6.4"
+>>>>>>> 01971b36bd4f80ca4e2eed1208d9133fbb54c901
   }
 }
