@@ -15,6 +15,7 @@ import {
     TableContainer,
     Button,
     Flex,
+    HStack,
   } from '@chakra-ui/react'
 import { FiSearch, FiPlusCircle } from 'react-icons/fi';
 import { GiCow } from 'react-icons/gi'
@@ -24,10 +25,10 @@ const Bois = () => {
     <SidebarWithHeader>
         <Head><title>Bois | Masper - Gestão de Patrimônio</title></Head>
         <Flex justifyContent={'space-between'} alignItems={'center'}>
-        <Flex>
+            <HStack spacing={'5'}>
                 <Heading><GiCow /></Heading>
                 <Heading>Bois</Heading>
-            </Flex>  
+            </HStack> 
             <Link href={'/imoveis/create'}>
                 <Button leftIcon={<FiPlusCircle />} colorScheme='green' size={'md'}>Novo Boi</Button>
             </Link>
