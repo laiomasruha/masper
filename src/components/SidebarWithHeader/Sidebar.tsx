@@ -17,9 +17,9 @@ interface LinkItemProps {
 const LinkItems: Array<LinkItemProps> = [
   { name: 'Resumo', icon: RiDashboardLine, link: "/" },
   { name: 'Imóveis', icon: BiBuildingHouse, link: "/imoveis" },
-  { name: 'Aluguéis', icon: BsCashCoin, link: "/" },
-  { name: 'Bois', icon: GiCow, link: "/" },
-  { name: 'Configurações', icon: FiSettings, link: "/" },
+  { name: 'Aluguéis', icon: BsCashCoin, link: "/alugueis" },
+  { name: 'Bois', icon: GiCow, link: "/bois" },
+  { name: 'Configurações', icon: FiSettings, link: "/configuracoes" },
 ];
 
 interface SidebarProps extends BoxProps {

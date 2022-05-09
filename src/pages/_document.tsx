@@ -5,7 +5,6 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Masper - Gestão de patrimônio</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />

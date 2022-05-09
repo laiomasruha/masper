@@ -2,7 +2,6 @@ import React from 'react';
 import SidebarWithHeader from '../../components/SidebarWithHeader';
 import Link from 'next/link';
 import Head from 'next/head';
-import {BiBuildingHouse} from 'react-icons/bi';
 import {
     Heading,
     Table,
@@ -19,18 +18,19 @@ import {
     HStack,
   } from '@chakra-ui/react'
 import { FiSearch, FiPlusCircle } from 'react-icons/fi';
+import { BsCashCoin } from 'react-icons/bs';
 
-const Imoveis = () => {
+const Alugueis = () => {
   return(
     <SidebarWithHeader>
-        <Head><title>Imóveis | Masper - Gestão de Patrimônio</title></Head>
+        <Head><title>Aluguéis | Masper - Gestão de Patrimônio</title></Head>
         <Flex justifyContent={'space-between'} alignItems={'center'}>
             <HStack spacing={'5'}>
-                <Heading><BiBuildingHouse /></Heading>
-                <Heading>Imóveis</Heading>
-            </HStack>            
-            <Link href={'/imoveis/create'}>
-                <Button leftIcon={<FiPlusCircle />} colorScheme='green' size={'md'}>Novo Imóvel</Button>
+                <Heading><BsCashCoin /></Heading>
+                <Heading>Alugueis</Heading>
+            </HStack>  
+            <Link href={'/alugueis/create'}>
+                <Button leftIcon={<FiPlusCircle />} colorScheme='green' size={'md'}>Novo Aluguel</Button>
             </Link>
         </Flex>
         <TableContainer mt={5} bg={'white'} p={5} rounded={5}>
@@ -83,4 +83,4 @@ const Imoveis = () => {
   );
 }
 
-export default Imoveis;
+export default Alugueis;
